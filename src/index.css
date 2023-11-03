@@ -13,6 +13,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.element {
+  -webkit-transform: translateX(100px); /* For Chrome and WebKit-based browsers */
+  -moz-transform: translateX(100px);    /* For Firefox */
+  transform: translateX(100px);         /* Standardized, for most modern browsers */
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

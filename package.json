@@ -1,6 +1,7 @@
 {
   "name": "lucy_website",
   "version": "0.1.0",
+  "homepage": "https://tom-mate-o.github.io/portfoliolucy/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",

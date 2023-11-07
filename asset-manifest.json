@@ -1,9 +1,7 @@
 {
   "files": {
-    "main.css": "/portfoliolucy/static/css/main.75b2b3ff.css",
-    "main.js": "/portfoliolucy/static/js/main.0d7ec526.js",
-    "static/js/555.6c270ce7.chunk.js": "/portfoliolucy/static/js/555.6c270ce7.chunk.js",
-    "static/js/461.9ab1b4e4.chunk.js": "/portfoliolucy/static/js/461.9ab1b4e4.chunk.js",
+    "main.css": "/portfoliolucy/static/css/main.8fab108c.css",
+    "main.js": "/portfoliolucy/static/js/main.2db0e8bf.js",
     "static/media/bg7.jpg": "/portfoliolucy/static/media/bg7.9509231e89ef1dc8bb7c.jpg",
     "static/media/bg6.jpg": "/portfoliolucy/static/media/bg6.6478bc692e67e6f97a7e.jpg",
     "static/media/bg2.jpg": "/portfoliolucy/static/media/bg2.7045126d3b2a0e1c09e4.jpg",
@@ -12,13 +10,11 @@
     "static/media/bg1.jpg": "/portfoliolucy/static/media/bg1.7bc4918110df7d3eef10.jpg",
     "static/media/bg5.jpg": "/portfoliolucy/static/media/bg5.8497d443d6f15c2b15c1.jpg",
     "index.html": "/portfoliolucy/index.html",
-    "main.75b2b3ff.css.map": "/portfoliolucy/static/css/main.75b2b3ff.css.map",
-    "main.0d7ec526.js.map": "/portfoliolucy/static/js/main.0d7ec526.js.map",
-    "555.6c270ce7.chunk.js.map": "/portfoliolucy/static/js/555.6c270ce7.chunk.js.map",
-    "461.9ab1b4e4.chunk.js.map": "/portfoliolucy/static/js/461.9ab1b4e4.chunk.js.map"
+    "main.8fab108c.css.map": "/portfoliolucy/static/css/main.8fab108c.css.map",
+    "main.2db0e8bf.js.map": "/portfoliolucy/static/js/main.2db0e8bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.75b2b3ff.css",
-    "static/js/main.0d7ec526.js"
+    "static/css/main.8fab108c.css",
+    "static/js/main.2db0e8bf.js"
   ]
 }

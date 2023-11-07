@@ -10,7 +10,7 @@
   --ocean2: #0096C7;
   --ocean3: #0077B6;
   --ocean4: #023E8A;
-  --ocean5: #001044;
+  --ocean5: #000a29;
   --ocean6: #3D3C39;
   --ocean7: #21201F;
 
@@ -87,8 +87,12 @@ width: 100%;
         font-size: 12px;
     }
 
+    
+
 }
 }
+
+
 
 .navbar{
   list-style-type: none;
@@ -133,7 +137,7 @@ width: 100%;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 900;
+    z-index: 1002;
     background: var(--navbar);
     width: 35px;
     height: 35px;
@@ -146,7 +150,7 @@ width: 100%;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 900;
+    z-index: 1002;
     width: 35px;
     height: 35px;
     display: flex;
@@ -179,7 +183,7 @@ width: 100%;
     background-color: #3a506b;
     overflow: auto;
     transition: width 0.3s ease;
-    z-index: 100;
+    z-index: 1001;
     display: flex; 
     flex-direction: column; 
     justify-content: flex-end; 
@@ -197,8 +201,6 @@ width: 100%;
   }
   
 }
-
-
 
 
 .avatar{
@@ -225,6 +227,7 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .intro:before{
@@ -232,8 +235,8 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: var(--ocean1);
   opacity: 0.7;
 }
@@ -243,6 +246,7 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .about:before{
@@ -250,17 +254,20 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: var(--ocean2);
   opacity: 0.7;
 }
 
+
+
 .noseproject{
-  background-image: url("/public/assets/bg3.jpg");
+  background-image: url("../public/assets/bg3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .noseproject:before{
@@ -268,17 +275,18 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: var(--ocean3);
   opacity: 0.7;
 }
 
 .publications{
-  background-image: url("/public/assets/bg4.jpg");
+  background-image: url("../public/assets/bg4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .publications:before{
@@ -286,17 +294,18 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: var(--ocean4);
   opacity: 0.7;
 }
 
 .cv{
-  background-image: url("/public/assets/bg5.jpg");
+  background-image: url("../public/assets/bg5.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .cv:before{
@@ -304,17 +313,18 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: var(--ocean5);
   opacity: 0.7;
 }
 
 .contact{
-  background-image: url("/public/assets/bg6.jpg");
+  background-image: url("../public/assets/bg6.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .contact:before{
@@ -322,18 +332,19 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: var(--ocean6);
   opacity: 0.8;
 }
 
 .footer {
-  height: 20vh;
-  background-image: url("/public/assets/bg7.jpg");
+  background-image: url("../public/assets/bg7.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
+  height: 20%;
 }
 
 .footer:before{
@@ -341,8 +352,8 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  height: 20vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: var(--ocean7);
   opacity: 0.7;
 }

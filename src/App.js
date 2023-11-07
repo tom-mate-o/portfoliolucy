@@ -3,6 +3,13 @@ import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { useRef } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import React, { useState, useEffect } from "react";
+import Intro from "./components/intro";
+import About from "./components/about";
+import Noseproject from "./components/noseproject";
+import Publications from "./components/publications";
+import Cv from "./components/cv";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 function App() {
   const ref = useRef(null);
@@ -106,54 +113,31 @@ function App() {
         </div>
 
         <section className="intro" data-scroll-section id="intro">
-          <img
-            className="avatar"
-            src="/assets/lucy_avatar.jpg"
-            alt="Lucy in front of Pelagia"
-          ></img>
-          <a href="#intro" data-scroll-to>
-            <h1>HI, I'M LUCY!</h1>
-          </a>
-
-          <p>
-            I'm a Ocean Scientist and PhD Candidate at NIOZ in the Netherhlands.
-          </p>
+          <Intro />
         </section>
 
         <section className="about" data-scroll-section id="about">
-          <a href="#about" data-scroll-to>
-            <h1>ABOUT ME</h1>
-          </a>
+          <About />
         </section>
 
         <section className="noseproject" data-scroll-section id="noseproject">
-          <a href="#noseproject" data-scroll-to>
-            <h1>NoSe PROJECT</h1>
-          </a>
+          <Noseproject />
         </section>
 
         <section className="publications" data-scroll-section id="publications">
-          <a href="#publications" data-scroll-to>
-            <h1>PUBLICATIONS</h1>
-          </a>
+          <Publications />
         </section>
 
         <section className="cv" data-scroll-section id="cv">
-          <a href="#cv" data-scroll-to>
-            <h1>CV</h1>
-          </a>
+          <Cv />
         </section>
 
         <section className="contact" data-scroll-section id="contact">
-          <a href="#contact" data-scroll-to>
-            <h1>CONTACT</h1>
-          </a>
+          <Contact />
         </section>
 
         <section className="footer" data-scroll-section id="footer">
-          <a href="#footer" data-scroll-to>
-            <h1>FOOTER</h1>
-          </a>
+          <Footer />
         </section>
       </main>
     </LocomotiveScrollProvider>
